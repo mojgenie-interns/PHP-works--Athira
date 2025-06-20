@@ -1,7 +1,7 @@
 <?php 
 $x = 5;
 function Print_1() {
-    echo "the value of x is $x\n ";
+    echo "the value of x is $x","\n ";
 } 
 Print_1();
 echo " the value of $x\n "; # global scope
