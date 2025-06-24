@@ -32,3 +32,22 @@ class Xmas extends Festivel
 }
 $fest = new Xmas("Xmas");
 $fest->celebrate();
+
+
+
+
+
+
+abstract class Brand {
+    public $brand;
+
+    public function __construct($brand)
+    {
+        $this->brand =$brand;
+    }
+    abstract public function functionality ();
+     public function showbrand()
+     {
+        echo " This is for ". $this->brand;
+     }
+}
