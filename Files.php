@@ -6,6 +6,6 @@ if($file)
     echo "File is opened succesfully";
 
 }else
-    echo "File cannot be opwned\n";
+    echo "File cannot be opened\n";
 fclose($file);
-echo " file is closed";
+echo " \nfile is closed";
